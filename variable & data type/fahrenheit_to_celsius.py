@@ -1,0 +1,5 @@
+fahrenheit = float(input("Enter the Fahrenheit number: "))
+celsius = (fahrenheit - 32) * (5/9)
+print("Celsius Number: ", celsius)
+C = round(celsius, 2)
+print(C)
